@@ -1,0 +1,162 @@
+*{
+    
+    margin: 0px;
+    padding: 0px;
+    box-sizing:border-box;
+}
+/* Tophead section start */
+.tophead{
+    width: 100%;
+    height: 60px;
+    color:#fff;
+    line-height: 60px;
+    padding: 0px 125px;
+    background-color:#002F06;
+
+}
+.tophead .left{
+    float: left;
+}
+.tophead .right{
+    float: right;
+}
+.tophead p{
+    display:inline-block;
+    
+}
+.tophead a{
+    color:rgb(165, 235, 165);
+}
+/* Tophead section end */
+.head1
+{
+    width: 100%;
+    height: 100px;
+    line-height: 100px;
+    padding: 0px 120px;
+    color: floralwhite;
+    background-color:#005200;
+    float: left;
+}
+header div{
+    width: 100%;
+    height: 100px;
+    line-height: 100px;
+    color: #fff;
+    background-color:#005200;
+    padding: 0px 120px;
+}
+header ul li{
+display: inline-block;
+font-weight: 900;
+}
+/*Tophead section end  */
+
+/* Navbar start */
+nav{
+    width:100%;
+    height: 60px;
+    line-height: 60px;
+    background-color: #2D6631;
+    padding: 0px 120px;
+}
+nav ul li {
+    display:inline-block;
+    list-style: none;
+    margin: 05px;
+
+}
+nav ul li a{
+    color: #000;
+    text-decoration: none;
+    font-weight:bold;
+}
+
+nav ul li a:hover{
+color:#fff;
+transition:0.3s linear;
+}
+/* Navbar end */
+
+/* Section start */
+section{
+    width: 100%;
+    padding: 0px 100px;
+
+}
+section main{
+    float: left;
+    color:#000;
+    width: 80%;
+    padding-right: 10px;
+    justify-content:center;
+
+}
+section aside{
+
+    float: right;
+    color: #000;
+    width: 20%;
+    height: auto;
+    background-color: #C2C0AA;
+    padding: 20px 0px 30px 15px;
+    
+
+}
+aside ul li{
+    
+    font-weight:600;
+    list-style: none;
+}
+aside ul li ul li{
+    padding-left: 20px ;
+    font-weight: normal;
+}
+
+/* Section End */
+
+/* Footer Section Start */
+footer{
+    width: 100%;
+    height: 100px;
+    background-color:#002F06;
+    color: #fff;
+    padding: 10px 120px;
+}
+footer .link{
+    float: left;
+    width: 33%;
+    font-weight: bold;
+
+}
+footer .link ul li{
+    list-style: none;
+    font-weight: normal;
+}
+footer .follow{
+    float: left;
+    width: 33%;
+    font-weight:bold;
+
+    
+}
+footer .follow ul li{
+    list-style: none;
+    font-weight: normal;
+}
+footer .copy
+{
+    float: right;
+    width: 34%;
+    font-weight: bold;
+    text-align: right;
+}
+footer .copy ul li{
+    list-style: none;
+    font-weight: normal;
+}
+
+
+
+
+/* Footer Section End */
